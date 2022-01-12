@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MainApplication<main>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.nanoib.infra.http.MainApplication",
+            "projectName": "main",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MainApplication<http>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.nanoib.infra.http.MainApplication",
+            "projectName": "http",
+            "args": ""
+        }
+    ]
+}
